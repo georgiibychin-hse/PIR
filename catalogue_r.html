@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @font-face { font-family: Uncage; src: url(UNCAGE-Medium.ttf);}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог рецептов</title>
+    <link rel="stylesheet" href="styles/style-catalogue.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+        <div class="header-wrap">
+        <a href="index.html"><img src="images/logo-black.svg" class="head-logo"></a>
+        <div class="nav">
+            <a href="styleguide.html" class="link-p3">О нас</a>
+            <a href="map.html" class="link-p3">Карта</a>
+            <a href="catalogue_a.html" class="link-p3">Статьи</a>
+            <a href="catalogue_r.html" class="link-p3">Рецепты</a>
+        </div>
+        </div>
+        </div>
+    </header>
+    
+    <div class="cover_r"><div class="text-h1">Рецепты<br>и кулинария</div></div>
+
+    <div class="container">
+        <div class="wrap">
+            <select name="sort" class="select-custom">
+                <option value="seconds" data-sort="desc" selected>Новые рецепты</option>
+                <option value="seconds" data-sort="asc">Старые рецепты</option>
+                <option value="time" data-sort="asc">Быстрые рецепты</option>
+                <option value="time" data-sort="desc">Короткие рецепты</option>
+            </select>
+
+            <select name="filter" class="select-custom">
+                <option value="" selected>Все регионы</option>
+                <option value="Нижегородский">Северные</option>
+                <option value="Советский">Западные</option>
+                <option value="Московский">Южные</option>
+                <option value="Ленинский">Восточные</option>
+            </select>
+        </div>
+        <div class="list"></div>
+    </div>
+
+    <div class="container">
+        <div class="cards_list">
+
+            <a href="recipe.html" class="card_s">
+                <img src="images/r1.jpg" class="image">
+                <div class="info">
+                    <div class="name">Летний пирог<br>с голубикой</div>
+                    <div class="time"><img src="images/timer.svg">35
+                         мин.</div>
+                </div>
+            </a>
+             <a href="recipe2.html" class="card_s">
+                <img src="images/r2.jpg" class="image">
+                <div class="info">
+                    <div class="name">Лимонный пирог</div>
+                    <div class="time"><img src="images/timer.svg">40 мин.</div>
+                </div>
+            </a>
+             <a href="recipe6.html" class="card_s">
+                <img src="images/r3.jpg" class="image">
+                <div class="info">
+                    <div class="name">Пирог с фетой и шпинатом</div>
+                    <div class="time"><img src="images/timer.svg">50 мин.</div>
+                </div>
+            </a>
+            
+            <a href="recipe4.html" class="card_m">
+                <img src="images/rm1.jpg" class="image">
+                <div class="info">
+                    <div class="name">Летний пирог с клубникой</div>
+                    <div class="time"><img src="images/timer.svg">7 мин.</div>
+                </div>
+            </a>
+            <a href="recipe5.html" class="card_m">
+                <img src="images/rm2.jpg" class="image">
+                <div class="info">
+                    <div class="name">Песочный пирог с клубникой</div>
+                    <div class="time"><img src="images/timer.svg">7 мин.</div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <a href="recipe3.html" class="banner">
+         <img src="images/cheesecake.png" class="image_l">
+        <div class="info_l">
+            <div class="name_l">Чизкейк с персиками</div>
+            <div class="text">Чизкейк с персиками без выпечки — это простой, но вкусный семейный  десерт, который обязательно нужно подавать с горячим чаем или  свежезаваренным кофе. Ничего сложного, но десерт требует соблюдение технологии и  выбора правильного творожного сыра. Наш рецепт чизкейка с печеньем и  персиками проще, но ничем не хуже. Внешне он не похож на классический  чизкейк, но за сочетание взбитых сливок и спелых персиков можно простить и это. Пробуйте!</div>
+            <div class="tags">
+                <div class="tag">Простой рецепт</div>
+                <div class="tag"><img src="images/timer.svg">7 мин.</div>
+                </div>
+            </div> 
+        </a>
+
+        <div class="container">
+        <div class="cards_list">
+
+            <div class="card_s">
+                <img src="images/test2.png" class="image">
+                <div class="info">
+                    <div class="name">Уникальное наследие<br>Татарстана</div>
+                    <div class="time"><img src="images/timer.svg">7 мин.</div>
+                </div>
+            </div>
+             <div class="card_s">
+                <img src="images/test2.png" class="image">
+                <div class="info">
+                    <div class="name">Уникальное наследие<br>Татарстана</div>
+                    <div class="time"><img src="images/timer.svg">7 мин.</div>
+                </div>
+            </div>
+             <div class="card_s">
+                <img src="images/test2.png" class="image">
+                <div class="info">
+                    <div class="name">Уникальное наследие<br>Татарстана</div>
+                    <div class="time"><img src="images/timer.svg">7 мин.</div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+            <div class="left-sec">
+                <div class="text-p3">Телеграм</div>
+                <div class="text-p3">VK</div>
+                <div class="text-p3">Youtube</div>
+                <div class="text-p3">PIR@yandex.ru</div>
+            </div>
+            <img src="images/logo.svg" class="logo-footer">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
